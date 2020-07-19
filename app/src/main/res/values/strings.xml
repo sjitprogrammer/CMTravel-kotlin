@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">CMTravel</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="poppular_tour">POPULAR TOUR</string>
+    <string name="poppular_tour_des">แหล่งท่องเที่ยวสุดฮอต ไม่ว่าจะเป็นภูเขา วัด น้ำตก ไปจนถึง ร้านกาแฟ สุดชิค</string>
+
+    <string name="location">LOCATION</string>
+    <string name="location_des">ค้นหาสถานที่ท่องเที่ยวง่ายๆ จาก Google map</string>
+
+    <string name="payment">EASY FPAYMENT</string>
+    <string name="payment_des">จ่ายง่าย จ่ายไว รวดเร็ว และ ปลอดภัย เงินไม่พอเรามีให้ยืม (ผ่อน 3 งวด)</string>
+
+    <string name="next">Next</string>
+    <string name="finish">Finsh</string>
+</resources>

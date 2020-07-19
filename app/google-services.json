@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "834510056990",
+    "firebase_url": "https://cmtravel-7b18e.firebaseio.com",
+    "project_id": "cmtravel-7b18e",
+    "storage_bucket": "cmtravel-7b18e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:834510056990:android:79f45d14729afa957e080f",
+        "android_client_info": {
+          "package_name": "com.example.cmtravel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "834510056990-f04c5dbj0lshmfl53k62glv3sfovaga5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cmtravel",
+            "certificate_hash": "c3772eec032e1c53ccfb299d2058ecca42b0bc49"
+          }
+        },
+        {
+          "client_id": "834510056990-ppioc9oorqt8a0t3h7dfmul3d2se35td.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDssbO2uBJkRsO8QezVtFYRfyiGNQAE0NQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "834510056990-ppioc9oorqt8a0t3h7dfmul3d2se35td.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
