@@ -9,7 +9,11 @@
         android:id="@+id/homeFragment"
         android:name="com.example.cmtravel.screens.HomeFragment"
         android:label="fragment_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_tripDetailFragment"
+            app:destination="@id/tripDetailFragment" />
+    </fragment>
     <fragment
         android:id="@+id/profileFragment"
         android:name="com.example.cmtravel.screens.ProfileFragment"
@@ -20,4 +24,9 @@
         android:name="com.example.cmtravel.screens.FavoriteFragment"
         android:label="fragment_favorite"
         tools:layout="@layout/fragment_favorite" />
+    <fragment
+        android:id="@+id/tripDetailFragment"
+        android:name="com.example.cmtravel.screens.TripDetailFragment"
+        android:label="fragment_trip_detail"
+        tools:layout="@layout/fragment_trip_detail" />
 </navigation>
