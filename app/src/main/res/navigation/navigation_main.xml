@@ -12,7 +12,11 @@
         tools:layout="@layout/fragment_home" >
         <action
             android:id="@+id/action_homeFragment_to_tripDetailFragment"
-            app:destination="@id/tripDetailFragment" />
+            app:destination="@id/tripDetailFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
     </fragment>
     <fragment
         android:id="@+id/profileFragment"
@@ -28,5 +32,11 @@
         android:id="@+id/tripDetailFragment"
         android:name="com.example.cmtravel.screens.TripDetailFragment"
         android:label="fragment_trip_detail"
-        tools:layout="@layout/fragment_trip_detail" />
+        tools:layout="@layout/fragment_trip_detail" >
+        <action
+            android:id="@+id/action_tripDetailFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/homeFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
 </navigation>

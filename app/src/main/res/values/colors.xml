@@ -7,4 +7,5 @@
     <color name="bg_splash">#E5F1EF</color>
     <color name="text_title_black">#2B2E2D</color>
     <color name="blue">#2196f3</color>
+    <color name="blue_background">#3C45E8</color>
 </resources>
